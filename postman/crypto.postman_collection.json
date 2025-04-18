@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "37c10157-93be-4e2b-b6b8-b36c556eb0c6",
+		"_postman_id": "2247a239-336f-49e3-a209-ffa5ab68982a",
 		"name": "crypto",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "32654090"
+		"_exporter_id": "44211814"
 	},
 	"item": [
 		{
@@ -13,7 +13,18 @@
 					"name": "getAllUser",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
 					},
 					"response": []
 				},
@@ -205,7 +216,10 @@
 					"name": "transactions",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": ""
+						}
 					},
 					"response": []
 				}
@@ -237,7 +251,10 @@
 					"name": "getAllOrders",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": ""
+						}
 					},
 					"response": []
 				},
@@ -303,7 +320,10 @@
 					"name": "New Request",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": ""
+						}
 					},
 					"response": []
 				}
@@ -432,15 +452,21 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/transactions/:user_id",
+							"raw": "http://localhost:3000/fiat/transactions/:user_id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
 							"path": [
+								"fiat",
 								"transactions",
 								":user_id"
 							],
 							"variable": [
 								{
 									"key": "user_id",
-									"value": ""
+									"value": "3"
 								}
 							]
 						}
