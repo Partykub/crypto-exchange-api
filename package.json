@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+  "dev": "npx nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,7 @@
     "argon2": "^0.41.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "nodemon": "^3.1.9",
     "pg": "^8.14.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
   }
 }
